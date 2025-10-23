@@ -1,0 +1,1 @@
+Coloca aquí los logos e imágenes corporativas

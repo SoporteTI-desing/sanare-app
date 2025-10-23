@@ -1,0 +1,1 @@
+Carpeta para el Catálogo Interactivo de Medicamentos Sanaré

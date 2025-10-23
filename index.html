@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal Sanare | INNVIDA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(180deg, #0A497B, #001F3F);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    img.logo {
+      width: 160px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-5px);
+    }
+    button {
+      background: #00AEEF;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    button:hover { background: #0078A0; }
+  </style>
+</head>
+<body>
+  <img src="https://soporteti-desing.github.io/assets/sanare_logo.png" class="logo" alt="Sanare Logo" />
+  <h1>Portal Sanare | INNVIDA</h1>
+  <div class="container">
+    <div class="card">
+      <h3>🧬 CRM Médicos INNVIDA</h3>
+      <p>Gestión de médicos, registros y mapa interactivo.</p>
+      <button onclick="window.location.href='./crm/index.html'">Ingresar</button>
+    </div>
+    <div class="card">
+      <h3>💊 Cotizador Sanare</h3>
+      <p>Genera cotizaciones de medicamentos y servicios médicos.</p>
+      <button onclick="window.location.href='./cotizador/index.html'">Abrir</button>
+    </div>
+    <div class="card">
+      <h3>📚 Catálogo de Medicamentos</h3>
+      <p>Consulta el listado interactivo de productos Sanaré.</p>
+      <button onclick="window.location.href='./catalogo/index.html'">Explorar</button>
+    </div>
+  </div>
+  <p style="margin-top:40px; font-size:12px; opacity:0.7;">
+    © 2025 Corporativo INNVIDA / Sanare · Todos los derechos reservados
+  </p>
+</body>
+</html>
